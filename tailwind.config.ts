@@ -21,6 +21,7 @@ const config = {
       "2xl": { max: "1535px" },
       xl: { max: "1279px" },
       lg: { max: "1023px" },
+      md2: {max: "960px"},
       md: { max: "767px" },
       xmd: { max: "830px" },
       sm: { max: "639px" },
