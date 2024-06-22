@@ -7,11 +7,21 @@ import WhyIO from "./components/why-io";
 export default function Home() {
   return (
     <main>
-      <Hero />
-      <WhyIO />
-      <Speakers />
-      <Agenda />
-      <FAQ />
+      <section id="hero">
+        <Hero />
+      </section>
+      <section id="why-io">
+        <WhyIO />
+      </section>
+      <section id="speakers">
+        <Speakers />
+      </section>
+      <section id="agenda">
+        <Agenda />
+      </section>
+      <section id="faq">
+        <FAQ />
+      </section>
     </main>
   );
 }
