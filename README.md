@@ -1,3 +1,6 @@
+[![Node.js CI](https://github.com/gdgsrilanka/google-io-2024-web/actions/workflows/node.js.yml/badge.svg)](https://github.com/gdgsrilanka/google-io-2024-web/actions/workflows/node.js.yml)
+
+<br/>
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
