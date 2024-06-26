@@ -11,7 +11,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className="w-full flex items-center justify-between py-10 px-16 text-grey-500 border-t-2 ">
+    <footer className="w-full flex items-center justify-between py-10 px-16 text-grey-500 ">
       <div className="w-full flex items-center">
         <Link href="/" className="cursor-pointer pr-12">
           <Image
