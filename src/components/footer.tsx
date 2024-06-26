@@ -11,9 +11,9 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className="w-full flex items-center justify-between py-10 px-16 text-grey-500 ">
-      <div className="w-full flex items-center">
-        <Link href="/" className="cursor-pointer pr-12">
+    <footer className="w-full flex flex-col 2xl:flex-row items-start 2xl:items-center justify-start 2xl:justify-between py-10 px-8 2xl:px-16 text-grey-500 ">
+      <div className="flex flex-col 2xl:flex-row items-start 2xl:items-center mb-6 2xl:mb-0">
+        <Link href="/" className="cursor-pointer mb-10 2xl:mb-0 2xl:pr-12">
           <Image
             src={GoogleForDevelopers}
             alt="Google For Developers"
@@ -21,12 +21,12 @@ const Footer = () => {
             height={24}
           />
         </Link>
-        <div className="">
+        <div className="flex flex-col 2xl:flex-row 2xl:items-center">
           <a
             href="https://io.google/2023/"
             target="_blank"
             rel="noreferrer noopener"
-            className="text-gray-400 font-medium pr-3 text-base"
+            className="text-gray-400 font-medium mb-5 2xl:mb-0 2xl:pr-3 text-base"
           >
             I/O 2023
           </a>
@@ -34,7 +34,7 @@ const Footer = () => {
             href="/2024/puzzle/"
             target="_blank"
             rel="noreferrer noopener"
-            className="text-gray-400 font-medium px-3 text-base"
+            className="text-gray-400 font-medium mb-5 2xl:mb-0 2xl:px-3 text-base"
           >
             I/O Puzzle
           </a>
@@ -42,7 +42,7 @@ const Footer = () => {
             href="https://policies.google.com/"
             target="_blank"
             rel="noreferrer noopener"
-            className="text-gray-400 font-medium px-3 text-base"
+            className="text-gray-400 font-medium mb-5 2xl:mb-0 2xl:px-3 text-base"
           >
             Privacy &amp; terms
           </a>
@@ -50,21 +50,19 @@ const Footer = () => {
             href="https://developers.google.com/community-guidelines"
             target="_blank"
             rel="noreferrer noopener"
-            className="text-gray-400 font-medium px-3 text-base"
+            className="text-gray-400 font-medium mb-5 2xl:mb-0 2xl:px-3   text-base"
           >
             Community guidelines
           </a>
           <a
             href="/2024/about/#section-one"
-            className="text-gray-400 font-medium pl-3 text-base"
+            className="text-gray-400 font-medium  2xl:mb-0  2xl:pl-3 text-base"
           >
             FAQ
           </a>
         </div>
-
-        <div className="hidden md:block items-center justify-center"></div>
       </div>
-      <div className="flex lg:justify-self-end lg:justify-end mt-12 lg:mt-0">
+      <div className="flex flex-wrap 2xl:flex-nowrap justify-start 2xl:justify-end w-full 2xl:w-auto">
         <a
           href="https://www.youtube.com/@GDGSriLanka"
           className="p-3"
@@ -75,14 +73,13 @@ const Footer = () => {
           <Image
             src={Youtube}
             alt="Google Developers on Youtube"
-            width={30}
-            height={30}
+            className="w-7"
             loading="lazy"
           />
         </a>
         <a
           href="https://www.instagram.com/gdgsrilanka/"
-          className="p-3"
+          className="p-3 "
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Google Developers on Instagram"
@@ -90,15 +87,13 @@ const Footer = () => {
           <Image
             src={Instagram}
             alt="Google Developers on Instagram"
-            width={30}
-            height={30}
+            className="w-7"
             loading="lazy"
           />
         </a>
-
         <a
           href="https://www.linkedin.com/company/gdglk/"
-          className="p-3"
+          className="p-3 "
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Google Developers on LinkedIn"
@@ -106,12 +101,10 @@ const Footer = () => {
           <Image
             src={Linkedin}
             alt="Google Developers on Linkedin"
-            width={30}
-            height={30}
+            className="w-7"
             loading="lazy"
           />
         </a>
-
         <a
           href="https://twitter.com/googledevs"
           className="p-3"
@@ -122,9 +115,8 @@ const Footer = () => {
           <Image
             src={Twitter}
             alt="Google Developers on X"
-            width={30}
-            height={30}
             loading="lazy"
+            className="w-7"
           />
         </a>
       </div>
