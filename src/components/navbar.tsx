@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="max-w-8xl flex items-center justify-between py-4 mx-4">
+      <header className="max-w-8xl flex items-center justify-between px-5 py-4 mx-4">
         <Link href="/" className="cursor-pointer">
           <Image
             src={IOExtended2024LogoWhite}

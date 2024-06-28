@@ -3,6 +3,7 @@ import FAQ from "./components/faq";
 import Hero from "./components/hero";
 import Speakers from "./components/speakers";
 import WhyIO from "./components/why-io";
+import SeeYou from "./components/SeeYou";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
       <section id="hero">
         <Hero />
       </section>
-      <section id="why-io">
+      {/* <section id="why-io">
         <WhyIO />
       </section>
       <section id="speakers">
@@ -21,6 +22,9 @@ export default function Home() {
       </section>
       <section id="faq">
         <FAQ />
+      </section> */}
+      <section>
+        <SeeYou/>
       </section>
     </main>
   );
