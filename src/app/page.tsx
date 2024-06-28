@@ -1,10 +1,10 @@
-import Agenda from "@/components/agenda";
-import FAQ from "@/components/faq";
-import Hero from "@/components/hero";
-import Speakers from "@/components/speakers";
-import WhyIO from "@/components/why-io";
-import SeeYou from "@/components/SeeYou";
-import Keynote from "@/components/Keynote";
+import Agenda from "@/components/home/agenda";
+import FAQ from "@/components/home/faq";
+import Hero from "@/components/home/hero";
+import Speakers from "@/components/home/speakers";
+import WhyIO from "@/components/home/why-io";
+import SeeYou from "@/components/home/SeeYou";
+import Keynote from "@/components/home/Keynote";
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
       <section id="video">
         <Keynote />
       </section>
-      {/* <section id="why-io">
+      <section id="why-io">
         <WhyIO />
       </section>
       <section id="speakers">
@@ -26,7 +26,7 @@ export default function Home() {
       </section>
       <section id="faq">
         <FAQ />
-      </section> */}
+      </section>
       <section>
         <SeeYou />
       </section>
