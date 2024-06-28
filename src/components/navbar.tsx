@@ -1,7 +1,6 @@
 'use client';
 import { useState } from "react";
-import IOExtended2024LogoBlack from "@public/IOExtended2024-logo-core-black.png";
-import IOExtended2024LogoWhite from "@public/IOExtended2024-logo-core-white.png";
+import IOExtended2024LogoWhite from "@public/IOExtended2024-logo-core-white.svg"
 import Image from "next/image";
 import Link from "next/link";
 
@@ -14,12 +13,12 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="max-w-8xl flex items-center justify-between py-4 mx-4">
+      <header className="max-w-8xl flex items-center justify-between py-2 ml-4 mr-7">
         <Link href="/" className="cursor-pointer">
           <Image
             src={IOExtended2024LogoWhite}
             alt="Google I/O Extended Sri Lanka 2024"
-            width={300}
+            width={200}
             height={200}
           />
         </Link>
