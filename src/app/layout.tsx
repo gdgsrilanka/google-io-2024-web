@@ -1,8 +1,9 @@
+import ReactQueryProvider from "@/providers/react-query-provider";
 import type { Metadata } from "next";
 import "@/styles/globals.css";
 import Navbar from "@/components/common/navbar";
 import Footer from "@/components/common/Footer";
-
+import React from "react";
 
 export const metadata: Metadata = {
   title: "Google I/O Extended Sri Lanka 2024",
@@ -17,9 +18,11 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body>
-        <Navbar />
-        {children}
-        <Footer/>
+        <ReactQueryProvider>
+          <Navbar />
+          {children}
+          <Footer />
+        </ReactQueryProvider>
       </body>
     </html>
   );
