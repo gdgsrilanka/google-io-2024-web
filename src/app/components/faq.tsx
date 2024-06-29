@@ -10,7 +10,7 @@ const FAQ = () => {
 
   return (
     <section className="max-w-full flex items-center justify-between md:flex-col">
-      <div className="w-1/4 ml-10 text-left justify-center w-2/6 md:text-center md:w-full md:m-0 md:px-5 md:py-5">
+      <div className="ml-10 text-left justify-center w-full max-w-md md:text-center md:w-full md:m-0 p-6 sm:p-8 md:p-10 lg:p-12 xl:p-16">
         <h1 className="text-6xl leading-tight md2:text-3xl">Frequently asked questions</h1>
         <div className="flex flex-col faq-pills">
         <button
@@ -40,7 +40,7 @@ const FAQ = () => {
           </button>
         </div>
       </div>
-      <div className="flex-1 flex flex-col w-full max-w-full mx-auto faq-sections">
+      <div className="flex-1 flex flex-col w-full max-w-screen-lg mx-auto faq-sections p-6 sm:p-8 md:p-10 lg:p-12 xl:p-16 m-4 sm:m-6 md:m-8 lg:m-10 xl:m-12">
         <section id="section-one" className="pb-10 w-auto">
          <div className="border-2 rounded-2xl border-grey-900 dark:border-grey-200 overflow-hidden">
           <div
