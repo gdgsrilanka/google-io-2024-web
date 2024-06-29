@@ -1,4 +1,5 @@
 "use client";
+import { HoverBorderGradient } from "@/components/ui/hover-border-gradient";
 import herodark from "@public/hero-dark.svg";
 import herodarkMobile from "@public/hero-dark-mobile.svg";
 import { useMedia } from "use-media";
@@ -20,7 +21,12 @@ const Hero = () => {
             Join us for an exhilarating deep dive into the latest innovations
             and announcements from Google I/O.
           </h2>
-          <button className="text-white font-normal py-3 px-5 rounded-full text-xl bg-blue-600 hover:bg-blue-500 md2:text-sm" onClick={handleClick}>Register</button>
+          <button
+            className="text-white font-normal py-3 px-5 rounded-full text-xl bg-blue-600 hover:bg-blue-500 md2:text-sm"
+            onClick={handleClick}
+          >
+            Register
+          </button>
         </div>
         <div className="mt-16 pr-4 lg:pr-0 md:w-full md:m-0">
           <Image
