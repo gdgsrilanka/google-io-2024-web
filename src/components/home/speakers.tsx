@@ -44,11 +44,11 @@ const Speakers: React.FC = () => {
 
   return (
     <section className="container max-w-8xl min-h-screen flex flex-col items-center justify-center mt-10">
-      <h1 className="text-6xl lg:text-5xl md:text-4xl font-semibold mb-16 text-center">Our Amazing Speaker Lineup</h1>
+      <h1 className="xl:text-6xl lg:text-5xl text-4xl font-normal mb-16 text-center">Our Amazing Speaker Lineup</h1>
       {loading ? (
         <p className="text-2xl">Loading...</p>
       ) : (
-        <div className="grid grid-cols-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-10 xl:gap-x-10 gap-x-36 gap-y-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-24 lg:gap-x-36 gap-y-10">
           {speakers.map(speaker => (
             <div key={speaker.id} className="flex flex-col items-center">
               <div className="relative w-48 h-48 mb-4">
