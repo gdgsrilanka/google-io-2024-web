@@ -5,12 +5,12 @@ interface VideoCardI {
   image: any;
   title: string;
   desc?:string;
-  link: string;
+  link?: string;
 }
 
 const VideoCard = ({ image, title, link, desc }: VideoCardI) => {
   return (
-    <Link href={link} className="mb-5 flex flex-col gap-5 w-full">
+    <a href={link} className="mb-5 flex flex-col gap-5 w-full">
       <div className="w-full aspect-w-16 aspect-h-9 relative">
         <img
           src={image}
@@ -22,7 +22,7 @@ const VideoCard = ({ image, title, link, desc }: VideoCardI) => {
         <p className="font-normal text-3xl">{title}</p>
         <p>{desc}</p>
       </div>
-    </Link>
+    </a>
   );
 };
 

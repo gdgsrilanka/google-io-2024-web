@@ -8,6 +8,7 @@ import Keynote from "@/components/home/keynote";
 import GoogleGemini from '@/components/home/gemini'
 import WorldGlobe from "@/components/home/worldglobal";
 import WhatToExpect from "@/components/home/whatexpect";
+import Stats from "@/components/home/stats";
 
 export default function Home() {
   return (
@@ -15,14 +16,17 @@ export default function Home() {
       <section id="hero">
         <Hero />
       </section>
+      <section id="whattoexpect">
+        <WhatToExpect/>
+      </section>
+      <section id="stats">
+        <Stats/>
+      </section>
       <section id="globe">
         <WorldGlobe/>
       </section>
       <section id="video">
         <Keynote />
-      </section>
-      <section id="whattoexpect">
-        <WhatToExpect/>
       </section>
       <section>
         <GoogleGemini/>

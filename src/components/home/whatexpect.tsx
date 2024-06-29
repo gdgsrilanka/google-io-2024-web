@@ -13,19 +13,19 @@ const WhatToExpect = () => {
           image="https://services.google.com/fh/files/events/ioconnectexplore.png"
           title="Explore"
           desc='Join technical sessions and Q&As to help you apply the latest announcements from Google I/O Extended.'
-          link="https://www.youtube.com/playlist?list=PLOU2XLYxmsIJZaqcQHCNrDtoaEgvZORMk"
+          
         />
         <VideoCard
           image="https://services.google.com/fh/files/events/ioconnectlearn.png"
           title="Learn"
           desc='Get hands-on with instructor-led workshops and check out the latest demos.'
-          link="https://www.youtube.com/playlist?list=PLOU2XLYxmsIJZaqcQHCNrDtoaEgvZORMk"
+          
         />
         <VideoCard
           image="https://services.google.com/fh/files/events/ioconnectconnect.png"
           title="Connect"
           desc='Sign up to network with the people who build the technology you love. You can also expand your network and meet with other developers from Sri Lanka'
-          link="https://www.youtube.com/playlist?list=PLOU2XLYxmsIJZaqcQHCNrDtoaEgvZORMk"
+          
         />
       </div>
     </div>
