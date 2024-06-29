@@ -15,6 +15,9 @@ const config = {
       padding: "1rem",
     },
     extend: {
+      screens: {
+        md2: {max: "960px"},
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
