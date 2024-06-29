@@ -3,8 +3,8 @@ import ImageCard from "../common/imageCard";
 
 const Stats = () => {
   return (
-    <div className="container mt-10 rounded-2xl border-[1px] border-border px-5 py-10 flex flex-row justify-between items-center">
-      <div className="flex flex-col gap-5 w-2/5">
+    <div className="container mt-10 rounded-2xl border-[1px] border-border px-5 py-10 flex flex-col md:flex-row justify-between items-center">
+      <div className="flex flex-col gap-5 w-full md:w-2/5">
         <h2 className="text-5xl font-normal">Occuring in the near future</h2>
         <p className="font-thin text-sm">
           Google I/O Extended brings the excitement of Google I/O directly to
@@ -12,7 +12,7 @@ const Stats = () => {
           technical talks from experts, networking, and hands-on learning.
         </p>
       </div>
-      <div className="flex flex-row gap-5">
+      <div className="grid grid-cols-2 md:flex md:flex-row gap-5 mt-5 md:mt-0">
         <ImageCard title="Speakers" no={5}/>
         <ImageCard title="Participants" no={100}/>
         <ImageCard title="Sessions" no={5}/>

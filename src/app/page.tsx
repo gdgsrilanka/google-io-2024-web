@@ -16,11 +16,11 @@ export default function Home() {
       <section id="hero">
         <Hero />
       </section>
-      <section id="whattoexpect">
-        <WhatToExpect/>
-      </section>
       <section id="stats">
         <Stats/>
+      </section>
+      <section id="whattoexpect">
+        <WhatToExpect/>
       </section>
       <section id="globe">
         <WorldGlobe/>
