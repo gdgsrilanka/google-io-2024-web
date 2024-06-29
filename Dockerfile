@@ -1,5 +1,7 @@
 FROM node:18-alpine
 
+ARG NEXT_PUBLIC_SPEAKERS_API_URL
+
 WORKDIR /app
 
 # Install pnpm
