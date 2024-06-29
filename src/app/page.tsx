@@ -3,8 +3,8 @@ import FAQ from "@/components/home/faq";
 import Hero from "@/components/home/hero";
 import Speakers from "@/components/home/speakers";
 import WhyIO from "@/components/home/why-io";
-import SeeYou from "@/components/home/seeYou";
-import Keynote from "@/components/home/keynote";
+import SeeYou from "@/components/home/SeeYou";
+import Keynote from "@/components/home/Keynote";
 import GoogleGemini from '@/components/home/gemini'
 import WorldGlobe from "@/components/home/worldglobal";
 import WhatToExpect from "@/components/home/whatexpect";

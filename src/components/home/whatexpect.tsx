@@ -1,5 +1,5 @@
 import React from 'react'
-import VideoCard from '../common/videoCard'
+import VideoCard from '../common/VideoCard'
 
 const WhatToExpect = () => {
   return (
