@@ -1,11 +1,11 @@
 import React from "react";
-import VideoCard from "../common/VideoCard";
+import VideoCard from "../common/videoCard";
 import Link from "next/link";
 
 const Keynote = () => {
   return (
     <div className="container mx-auto flex flex-col items-center mt-10">
-      <div className="flex flex-col mobile:flex-row justify-between gap-5">
+      <div className="flex flex-col md:flex-row justify-between gap-10">
         <VideoCard
           image="/io24-featured-keynote-recap-videos.webp"
           title="Watch the recap videos"
@@ -23,7 +23,7 @@ const Keynote = () => {
         />
       </div>
 
-      <div className="mt-10 flex flex-col mobile:flex-row justify-between w-full gap-10">
+      <div className="mt-10 flex flex-col md:flex-row justify-between w-full gap-10">
         <div className="relative flex-1 flex flex-row border-[1px] border-white rounded-2xl lg:flex-row overflow-hidden justify-between">
           <div className="flex flex-col items-start p-10 pr-0">
             <span className="text-grey dark:text-white mb-3 text-md:mb-4 sm:s-h4 md:l-h4 text-5xl">

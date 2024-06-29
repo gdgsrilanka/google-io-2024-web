@@ -5,7 +5,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div className="border-t border-t-border ">
-      <div className="px-8 py-10 flex mobile:flex-row md:flex-col md gap-5">
+      <div className="px-8 py-10 flex flex-col md:flex-row md gap-5">
         <Image
           src="/Logo-GoogleForDevelopers.svg"
           alt="google for developers"
@@ -13,7 +13,7 @@ const Footer = () => {
           height={20}
         />
 
-        <ul className="flex mobile:flex-row md:flex-col gap-5 text-[#9AA0A6]">
+        <ul className="flex flex-col md:flex-row gap-5 text-[#9AA0A6]">
           <Link href="#">
             <li>I/O 2023</li>
           </Link>

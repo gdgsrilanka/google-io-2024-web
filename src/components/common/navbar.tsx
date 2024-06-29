@@ -24,7 +24,7 @@ const Navbar = () => {
           />
         </Link>
         <div>
-          <nav className="md:hidden">
+          <nav className="hidden md:block">
             <ul className="flex items-center gap-8 font-medium">
               <li>
                 <a href="#why-io">Why I/O</a>
@@ -40,7 +40,7 @@ const Navbar = () => {
               </li>
             </ul>
           </nav>
-          <div className="hidden md:block items-center justify-center">
+          <div className="block md:hidden items-center justify-center">
             <button
               className="inline-flex items-center justify-center p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white ml-5"
               onClick={toggleMenu}
@@ -81,8 +81,8 @@ const Navbar = () => {
         </div>
       </header>
       <div
-        className={`hidden transition-max-height duration-700 ease-in ${isClick ? 'max-h-screen' : 'max-h-0'
-          } overflow-hidden md:block`}
+        className={`block transition-max-height duration-700 ease-in ${isClick ? 'max-h-screen' : 'max-h-0'
+          } overflow-hidden md:hidden`}
       >
         <hr className="w-full border-t-2" />
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">

@@ -3,8 +3,11 @@ import FAQ from "@/components/home/faq";
 import Hero from "@/components/home/hero";
 import Speakers from "@/components/home/speakers";
 import WhyIO from "@/components/home/why-io";
-import SeeYou from "@/components/home/SeeYou";
-import Keynote from "@/components/home/Keynote";
+import SeeYou from "@/components/home/seeYou";
+import Keynote from "@/components/home/keynote";
+import GoogleGemini from '@/components/home/gemini'
+import WorldGlobe from "@/components/home/worldglobal";
+import WhatToExpect from "@/components/home/whatexpect";
 
 export default function Home() {
   return (
@@ -12,8 +15,17 @@ export default function Home() {
       <section id="hero">
         <Hero />
       </section>
+      <section id="globe">
+        <WorldGlobe/>
+      </section>
       <section id="video">
         <Keynote />
+      </section>
+      <section id="whattoexpect">
+        <WhatToExpect/>
+      </section>
+      <section>
+        <GoogleGemini/>
       </section>
       <section id="why-io">
         <WhyIO />

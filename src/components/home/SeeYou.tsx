@@ -8,7 +8,7 @@ const SeeYou = () => {
         <h1 className="title text-5xl font-medium">See you next year!</h1>
       </div>
 
-      <div className="relative w-full mobile:h-[420px] md:h-[100px]">
+      <div className="relative w-full mobile:h-[100px] md:h-[420px]">
         <Image
           src="io24-see-you-next-year-dark.svg"
           fill
