@@ -5,7 +5,7 @@ const SeeYou = () => {
   return (
     <div className="mt-28">
       <div className="flex flex-col items-start px-10">
-        <h1 className="title text-5xl font-medium">See you next year!</h1>
+        <h1 className="title text-5xl font-medium">See you at the event!</h1>
       </div>
 
       <div className="relative w-full mobile:h-[100px] md:h-[420px]">
