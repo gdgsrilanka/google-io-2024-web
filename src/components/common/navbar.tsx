@@ -1,7 +1,6 @@
 'use client';
 import { useState } from "react";
-import IOExtended2024LogoBlack from "@public/IOExtended2024-logo-core-black.png";
-import IOExtended2024LogoWhite from "@public/IOExtended2024-logo-core-white.png";
+import IOExtended2024LogoWhite from "@public/IOExtended2024-logo-core-white.svg";
 import Image from "next/image";
 import Link from "next/link";
 
