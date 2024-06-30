@@ -1,8 +1,13 @@
-import Agenda from "./components/agenda";
-import FAQ from "./components/faq";
-import Hero from "./components/hero";
-import Speakers from "./components/speakers";
-import WhyIO from "./components/why-io";
+import Agenda from "@/components/home/agenda";
+import FAQ from "@/components/home/faq";
+import GoogleGemini from "@/components/home/gemini";
+import Hero from "@/components/home/hero";
+import Keynote from "@/components/home/Keynote";
+import SeeYou from "@/components/home/SeeYou";
+import Speakers from "@/components/home/speakers";
+import Stats from "@/components/home/stats";
+import WhatToExpect from "@/components/home/whatexpect";
+import WorldGlobe from "@/components/home/worldglobal";
 
 export default function Home() {
   return (
@@ -10,9 +15,24 @@ export default function Home() {
       <section id="hero">
         <Hero />
       </section>
-      <section id="why-io">
-        <WhyIO />
+      <section id="stats">
+        <Stats />
       </section>
+      <section id="whattoexpect">
+        <WhatToExpect />
+      </section>
+      <section id="globe">
+        <WorldGlobe />
+      </section>
+      <section id="video">
+        <Keynote />
+      </section>
+      <section>
+        <GoogleGemini />
+      </section>
+      {/*<section id="why-io">*/}
+      {/*  <WhyIO />*/}
+      {/*</section>*/}
       <section id="speakers">
         <Speakers />
       </section>
@@ -21,6 +41,9 @@ export default function Home() {
       </section>
       <section id="faq">
         <FAQ />
+      </section>
+      <section>
+        <SeeYou />
       </section>
     </main>
   );

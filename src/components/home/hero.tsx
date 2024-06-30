@@ -11,13 +11,13 @@ const Hero = () => {
   };
   return (
     <div>
-      <section className="max-w-8xl flex items-center justify-between md:flex-col">
-        <div className=" ml-6 text-left justify-center w-2/6 md:text-center md:w-full md:m-0 md:px-5 md:py-5">
+      <section className="max-w-8xl flex flex-col items-center justify-between md:flex-row">
+        <div className=" ml-6 justify-center md:w-2/6 text-center md:text-left w-full m-0 px-5 py-5">
           <h1 className="text-6xl font-semibold md2:text-3xl">Google I/O Extended Sri Lanka 2024</h1>
           <h2 className="text-xl mt-5 mb-5 md2:text-base">Join us for an exhilarating deep dive into the latest innovations and announcements from Google I/O.</h2>
           <button className="text-white font-semibold py-3 px-5 rounded-full text-xl bg-blue-600 hover:bg-blue-500 md2:text-sm" onClick={handleClick}>Register</button>
         </div>
-        <div className=' mt-16 pr-4 lg:pr-0 md:w-full md:m-0'>
+        <div className='md:mt-16 md:pr-4 lg:pr-0 w-full md:w-auto '>
           <Image
             className='w-full'
             src={isMobileScreen ? herodarkMobile : herodark}
