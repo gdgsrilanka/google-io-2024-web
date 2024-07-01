@@ -29,15 +29,15 @@ const Keynote = () => {
             <span className="text-grey dark:text-white mb-3 text-md:mb-4 sm:s-h4 md:l-h4 text-5xl">
               Join a community group
             </span>
-
             <div className="flex-1 flex flex-col items-start">
               <p className="text-grey dark:text-white mb-3 text-md:mb-6 sm:s-cta2 md:l-cta1">
                 Meet developers, discover local groups, and build your global
                 network.
               </p>
               <Link
-                href="#"
+                href="https://gdg.community.dev/gdg-sri-lanka/"
                 className="px-4 py-3 rounded-full border-white border-[1px] hover:bg-white hover:text-black"
+                target={"_blank"}
               >
                 Get Started
               </Link>
@@ -64,8 +64,9 @@ const Keynote = () => {
                 Grow your skills around the Google technology you love.
               </p>
               <Link
-                href="#"
+                href="https://codelabs.developers.google.com/"
                 className="px-4 py-3 rounded-full border-white border-[1px] hover:bg-white hover:text-black"
+                target={"_blank"}
               >
                 Get Started
               </Link>
