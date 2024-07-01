@@ -15,7 +15,7 @@ const WhyIO = () => {
   return (
     <section className="container max-w-8xl h-screen flex flex-col items-center justify-center">
       <h1 className="text-6xl font-bold">
-        What you should attend Google IO Extended?
+        Why you should attend Google IO Extended?
       </h1>
 
       <div className="mt-20 text-5xl mx-auto font-normal text-center text-white dark:text-neutral-400">
