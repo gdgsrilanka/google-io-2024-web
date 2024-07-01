@@ -28,23 +28,26 @@ export default function Home() {
       <section id="globe">
         <WorldGlobe />
       </section>
-      <section id="video">
-        <Keynote />
+
+      <section id="speakers">
+        <Speakers />
       </section>
 
       <section>
         <GoogleGemini />
       </section>
 
-      <section id="speakers">
-        <Speakers />
-      </section>
       <section id="agenda">
         <Agenda />
       </section>
       <section id="faq">
         <FAQ />
       </section>
+
+      <section id="video">
+        <Keynote />
+      </section>
+
       <section>
         <SeeYou />
       </section>
