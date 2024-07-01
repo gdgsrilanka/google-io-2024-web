@@ -37,9 +37,6 @@ export default function Home() {
         <GoogleGemini />
       </section>
 
-      {/*<section id="agenda">*/}
-      {/*  <Agenda />*/}
-      {/*</section>*/}
       <section id="faq">
         <FAQ />
       </section>
