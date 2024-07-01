@@ -7,6 +7,7 @@ import SeeYou from "@/components/home/SeeYou";
 import Speakers from "@/components/home/speakers";
 import Stats from "@/components/home/stats";
 import WhatToExpect from "@/components/home/whatexpect";
+import WhyIO from "@/components/home/why-io";
 import WorldGlobe from "@/components/home/worldglobal";
 
 export default function Home() {
@@ -21,18 +22,20 @@ export default function Home() {
       <section id="whattoexpect">
         <WhatToExpect />
       </section>
+      <section id="why-io">
+        <WhyIO />
+      </section>
       <section id="globe">
         <WorldGlobe />
       </section>
       <section id="video">
         <Keynote />
       </section>
+
       <section>
         <GoogleGemini />
       </section>
-      {/*<section id="why-io">*/}
-      {/*  <WhyIO />*/}
-      {/*</section>*/}
+
       <section id="speakers">
         <Speakers />
       </section>
