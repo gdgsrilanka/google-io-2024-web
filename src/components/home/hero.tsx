@@ -18,7 +18,7 @@ const Hero = () => {
   return (
     <div>
       <section className="max-w-8xl flex flex-col items-center justify-between md:flex-row">
-        <div className=" ml-6 justify-center md:w-2/6 text-center md:text-left w-full m-0 px-5 py-5">
+        <div className=" ml-6 justify-center md:w-2/6 text-center md:text-left m-0 px-5 py-5">
           <h1 className="text-6xl font-semibold md2:text-3xl">
             Google I/O Extended Sri Lanka 2024
           </h1>
