@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import { useState } from "react";
 import IOExtended2024LogoWhite from "@public/IOExtended2024-logo-core-white.svg";
 import Image from "next/image";
@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isClick, setIsClick] = useState(false);
 
   const toggleMenu = (): void => {
-    setIsClick(isClick => !isClick);
+    setIsClick((isClick) => !isClick);
   };
 
   return (
@@ -32,7 +32,7 @@ const Navbar = () => {
                 <a href="#speakers">Speakers</a>
               </li>
               <li>
-                <a href="#agenda">Agenda</a>
+                <Link href="/agenda">Agenda</Link>
               </li>
               <li>
                 <a href="#faq">FAQ</a>
@@ -80,8 +80,9 @@ const Navbar = () => {
         </div>
       </header>
       <div
-        className={`block transition-max-height duration-700 ease-in ${isClick ? 'max-h-screen' : 'max-h-0'
-          } overflow-hidden md:hidden`}
+        className={`block transition-max-height duration-700 ease-in ${
+          isClick ? "max-h-screen" : "max-h-0"
+        } overflow-hidden md:hidden`}
       >
         <hr className="w-full border-t-2" />
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
