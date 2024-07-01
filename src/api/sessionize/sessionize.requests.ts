@@ -38,5 +38,5 @@ export const getSpeakersWall = async () => {
   const response = await axios.get(
     "https://sessionize.com/api/v2/ur6m0nq4/view/SpeakerWall",
   );
-  return response.data;
+  return response.data as Speaker[];
 };

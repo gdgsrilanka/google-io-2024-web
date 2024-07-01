@@ -1,4 +1,4 @@
-import Agenda from "@/components/home/agenda";
+import AgendaContainer from "@/components/agenda/agenda-container";
 import FAQ from "@/components/home/faq";
 import GoogleGemini from "@/components/home/gemini";
 import Hero from "@/components/home/hero";
@@ -37,9 +37,6 @@ export default function Home() {
         <GoogleGemini />
       </section>
 
-      <section id="agenda">
-        <Agenda />
-      </section>
       <section id="faq">
         <FAQ />
       </section>

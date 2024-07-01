@@ -1,9 +1,9 @@
 import { SessionizeAPI } from "@/api";
 import { useQuery } from "@tanstack/react-query";
 
-export function useGetSpeakers() {
+export function useGetAgendaGrid() {
   return useQuery({
-    queryKey: ["speakers"],
-    queryFn: SessionizeAPI.getSpeakersWall,
+    queryKey: ["agenda"],
+    queryFn: SessionizeAPI.getScheduleGrid,
   });
 }
