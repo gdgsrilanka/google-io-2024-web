@@ -3,21 +3,8 @@
 import { Speaker } from "@/api/sessionize/sessionize.responses";
 import { Session } from "@/components/agenda/agenda-container";
 import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
+import { getRandomGoogleColor } from "@/utils/google-colors";
 import { format } from "date-fns";
-
-const colors = [
-  "#4285F4",
-  "#34A853",
-  "#FBBC04",
-  "#EA4335",
-  "#9F6CD4",
-  "#F46831",
-];
-
-const getRandomColor = () => {
-  const randomIndex = Math.floor(Math.random() * colors.length);
-  return colors[randomIndex];
-};
 
 interface Props {
   session: Session;
@@ -25,7 +12,7 @@ interface Props {
 }
 
 export function AgendaCard({ session, speakers }: Props) {
-  const bgColor = getRandomColor();
+  const bgColor = getRandomGoogleColor();
 
   return (
     <div
