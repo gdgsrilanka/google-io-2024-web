@@ -34,16 +34,15 @@ export function AgendaCard({ session, speakers }: Props) {
       style={{ backgroundColor: bgColor }}
     >
       <div className="grid grid-cols-10 gap-4">
-        <div className="col-span-2">
-          <p className={"ml-4"}>
-            {format(new Date(session.startsAt), "HH:mm")}
+        <div className="col-span-2 flex items-center">
+          <p className={"ml-5 justify-center"}>
+            {`${format(new Date(session.startsAt), "HH:mm")} - ${format(new Date(session.endsAt), "HH:mm")}`}
           </p>
-          <p className={"ml-4"}>{format(new Date(session.endsAt), "HH:mm")}</p>
         </div>
         <div className="col-span-5 flex items-center">
           <p className={"ml-4"}>{session.title}</p>
         </div>
-        <div className="col-span-3 flex items-center">
+        <div className="col-span-3 flex items-center justify-center">
           {speakers && speakers.length > 0 && (
             <div className="flex flex-row items-center justify-center mb-10 w-full">
               <AnimatedTooltip items={speakers ?? []} />

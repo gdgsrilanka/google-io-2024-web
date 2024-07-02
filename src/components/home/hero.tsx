@@ -30,7 +30,7 @@ const Hero = () => {
             className="text-white font-semibold py-3 px-5 rounded-full text-xl bg-blue-600 hover:bg-blue-500 md2:text-sm"
             onClick={handleClick}
           >
-            Buy Tickets <IoTicketOutline className={"ml-2"} fontWeight={7} />
+            Buy Tickets
           </Button>
         </div>
         <div className="md:mt-16 md:pr-4 lg:pr-0 w-full md:w-auto ">
