@@ -9,14 +9,18 @@ import {
 
 const FAQ = () => {
   return (
-    <section className="container max-w-8xl h-screen flex flex-col items-center justify-center">
+    <section className="container max-w-7xl h-screen flex flex-col items-center justify-center">
       <h1 className="text-6xl font-bold">FAQ</h1>
 
       <Accordion type="single" collapsible>
         {faqs.map((faq, index) => (
           <AccordionItem value={`item-${index}`} key={index}>
-            <AccordionTrigger>{faq.question}</AccordionTrigger>
-            <AccordionContent>{faq.answer}</AccordionContent>
+            <AccordionTrigger>
+              <div className={"text-xl text-left"}>{faq.question}</div>
+            </AccordionTrigger>
+            <AccordionContent>
+              <div className={"text-xl"}>{faq.answer}</div>
+            </AccordionContent>
           </AccordionItem>
         ))}
       </Accordion>
