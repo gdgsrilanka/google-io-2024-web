@@ -2,6 +2,7 @@ import AgendaContainer from "@/components/agenda/agenda-container";
 import FAQ from "@/components/home/faq";
 import GoogleGemini from "@/components/home/gemini";
 import Hero from "@/components/home/hero";
+import { ParallaxScrollDemo } from "@/components/home/image-demo";
 import Keynote from "@/components/home/Keynote";
 import SeeYou from "@/components/home/SeeYou";
 import Speakers from "@/components/home/speakers";
@@ -44,6 +45,10 @@ export default function Home() {
       <section id="video">
         <Keynote />
       </section>
+
+      {/*<section>*/}
+      {/*  <ParallaxScrollDemo />*/}
+      {/*</section>*/}
 
       <section>
         <SeeYou />
