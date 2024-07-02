@@ -27,7 +27,7 @@ const Keynote = () => {
         <div className="relative flex-1 flex flex-row border-[1px] border-white rounded-2xl lg:flex-row overflow-hidden justify-between">
           <div className="flex flex-col items-start p-10 pr-0">
             <span className="text-grey dark:text-white mb-3 text-md:mb-4 sm:s-h4 md:l-h4 text-5xl">
-              Join a community group
+              Join our community group
             </span>
             <div className="flex-1 flex flex-col items-start">
               <p className="text-grey dark:text-white mb-3 text-md:mb-6 sm:s-cta2 md:l-cta1">

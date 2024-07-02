@@ -1,4 +1,5 @@
 "use client";
+import { getRandomGoogleColor } from "@/utils/google-colors";
 import React, { useCallback, useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "@/utils/cn";
@@ -14,11 +15,13 @@ export const FlipWords = ({
 }) => {
   const [currentWord, setCurrentWord] = useState(words[0]);
   const [isAnimating, setIsAnimating] = useState<boolean>(false);
+  const [textColor, setTextColor] = useState<string>(getRandomGoogleColor());
 
   const startAnimation = useCallback(() => {
     const word = words[words.indexOf(currentWord) + 1] || words[0];
     setCurrentWord(word);
     setIsAnimating(true);
+    setTextColor(getRandomGoogleColor());
   }, [currentWord, words]);
 
   useEffect(() => {
@@ -63,6 +66,7 @@ export const FlipWords = ({
             "z-10 inline-block relative text-left text-blue-500 dark:text-neutral-100 px-2",
             className,
           )}
+          style={{ color: textColor }}
           key={word}
         >
           {word.split("").map((letter, index) => (
